@@ -33,7 +33,7 @@ if(empty($amt)) {
 	$amt = '1';
 	$chr = $amt * 100;
 }
-$sk = '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';
+$sk = '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';
 
 $lista = $_GET['lista'];
     $cc = multiexplode(array(":", "|", ""), $lista)[0];
